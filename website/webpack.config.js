@@ -233,7 +233,7 @@ module.exports = Object.assign({
 
 DEV ?
   {
-    devtool: 'eval',
+    devtool: 'cheap-module-eval-source-map',
   } :
   {}
 );
